@@ -1,3 +1,3 @@
 # png2vyi
 A tool that will turn your png into a vyi.
-Able to separate into `icons`, `states`, and `frames` 
+Able to separate into `icons`, `states`, and `frames`. Use the tool inside of the github [page](https://actii-codes.github.io/png2vyi/)
