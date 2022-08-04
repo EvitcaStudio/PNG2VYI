@@ -177,7 +177,7 @@ function makeVyi()
 	var wasState
 	var wasFrame
 	var previousDraw
-	var tiles = Math.round((img.width / width) * (img.height / height)) + 100//find a more solid fix then this, the last few tiles of some images are cut off without this
+	var tiles = Math.round((img.width / width) * (img.height / height)) + 100 //find a more solid fix then this, the last few tiles of some images are cut off without this
 	var x = 0
 	var y = 0
 
