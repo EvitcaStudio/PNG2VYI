@@ -182,11 +182,11 @@ function makeVyi()
 	var y = 0
 
 	for (var i=0; i < tiles; i++)
-		if (x > Math.round((img.width / width)))
+		if (x >= Math.round((img.width / width)))
 			x = 0
 			y++
 		var blank
-		var data = context.getImageData(Math.round(x * width), Math.round(y * width), width, height).data
+		var data = context.getImageData(Math.round(x * width), Math.round(y * height), width, height).data
 
 		for (var v = 0; v < data.length; v += 4)
 			if (data[v + 3] !== 0)
